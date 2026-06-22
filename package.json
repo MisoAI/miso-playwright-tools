@@ -15,6 +15,7 @@
     "lib"
   ],
   "scripts": {
+    "version": "node ./bin/version.js",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "peerDependencies": {
