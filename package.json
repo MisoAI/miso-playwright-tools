@@ -1,6 +1,5 @@
 {
   "name": "@miso.ai/playwright-tools",
-  "version": "0.1.0",
   "description": "Playwright helper functions for Miso E2E testing",
   "type": "module",
   "license": "MIT",
