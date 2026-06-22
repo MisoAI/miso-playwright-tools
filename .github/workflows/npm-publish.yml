@@ -41,7 +41,7 @@ jobs:
       - run: git config --global user.name "${{ github.actor }}"
       - run: git config --global user.email "github-action-${{ github.actor }}@users.noreply.github.com"
       - run: npm run version ${{ steps.version.outputs.version }}
-      - run: npm publish --provenance --workspaces
+      - run: npm publish --provenance
         if: "!github.event.release.prerelease"
-      - run: npm publish --provenance --workspaces --tag beta
+      - run: npm publish --provenance --tag beta
         if: "github.event.release.prerelease"
